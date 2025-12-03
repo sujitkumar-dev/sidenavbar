@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidenav {
+  width: 160px;
+  height: 100vh;
+  background-color: blueviolet;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  text-decoration: none;
+  display: block;
+  background-color: aquamarine;
+  padding: 10px 8px 16px 16px;
+  font-size: 20px;
+}
+.sidenav a:hover {
+  background-color: blue;
+  color: red;
+}
+
+.contant{margin-left: 160px; padding: 10px;}
+
+.imgbox{display: flex; justify-content: space-between;}
